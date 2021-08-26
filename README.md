@@ -98,3 +98,7 @@ Cenário: Uma determinada situação de negócios
     E outra ação diferente
     Então um resultado testável é alcançado
     E outra coisa que possamos verificar também acontece
+
+
+Esquema do Cenario: cria uma tabela de exemplos em que cada linha dela irá representar um cenário. É utilizado para estabelecer um conjunto de dados a serem executados nos passos definido no “Esquema do Cenario”;
+
