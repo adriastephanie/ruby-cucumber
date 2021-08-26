@@ -1,6 +1,6 @@
 # language: pt
 
-Funcionalidade: Cadastro de Usuario.
+Funcionalidade: Fazer uma soma.
 
 Cenario: fazer uma soma.
     Dado que eu quero soma de 1 + 1
