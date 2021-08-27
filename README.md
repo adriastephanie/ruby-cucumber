@@ -1,4 +1,4 @@
-# ruby-capybara-cucumber
+# ruby-cucumber
 repositório utilizando capybara, cucumber e linguagem ruby
 
 ## Instalacao MAC
