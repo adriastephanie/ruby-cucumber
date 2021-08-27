@@ -100,5 +100,7 @@ Cenário: Uma determinada situação de negócios
     E outra coisa que possamos verificar também acontece
 
 
-Esquema do Cenario: cria uma tabela de exemplos em que cada linha dela irá representar um cenário. É utilizado para estabelecer um conjunto de dados a serem executados nos passos definido no “Esquema do Cenario”;
+Esquema do Cenario (em ingles Scenario Outline): cria uma tabela de exemplos em que cada linha dela irá representar um cenário. É utilizado para estabelecer um conjunto de dados a serem executados nos passos definido no “Esquema do Cenario”;
+
+Contexto(em ingles Background): Tem funcionalidade de um before no teste. Você pode remover todos esses pré-requisitos “Dado que esteja logado” e adicionar essa linha logo após a “Funcionalidade”.
 

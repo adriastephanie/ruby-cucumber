@@ -2,6 +2,7 @@
 
 Funcionalidade: Calculos de subtração.
 
+
 Esquema do Cenario: fazer uma subtração.
     Quando eu multiplico minhas <laranjas> pelo <valor>
     Então eu vejo qual <resultado> da multiplicação.
