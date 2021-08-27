@@ -115,3 +115,18 @@ Ou
 ```sh
 cucumber --t @cenario1,@cenario2,@cenario3
 ```
+
+
+Hooks: Existem testes que necessitam de setup, onde são atribuídos trechos de código que precisam ser executado antes (before) ou depois (after) de iniciar a execução de um cenário. Esse setup deve ser implementado em uma classe que chamamos de hooks.
+
+hooks.rb ficam na pasta de suporte.
+
+Exemplo: 
+
+Before '@login' do
+  {inserir os comandos do login}
+end
+
+After '@logout' do
+  {inserir os comandos do logout}
+end
