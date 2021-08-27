@@ -104,3 +104,14 @@ Esquema do Cenario (em ingles Scenario Outline): cria uma tabela de exemplos em 
 
 Contexto(em ingles Background): Tem funcionalidade de um before no teste. Você pode remover todos esses pré-requisitos “Dado que esteja logado” e adicionar essa linha logo após a “Funcionalidade”.
 
+Tags: O comando cucumber permite executar uma série de funções que podem ser informadas pelo comando “cucumber -help”, o argumento “-t” significa que iremos passar uma tag por parâmetro e “@login” é a tag que será executada, pois foi informada no início da escrita da feature.
+Ex:
+
+```sh
+cucumber --tags @cenario1,@cenario2,@cenario3
+```
+Ou
+
+```sh
+cucumber --t @cenario1,@cenario2,@cenario3
+```
